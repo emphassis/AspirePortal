@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Portal.ServiceDefaults\Portal.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\RazorClassLibrary\RazorClassLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
