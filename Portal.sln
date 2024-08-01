@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp2", "BlazorApp2\Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary", "RazorClassLibrary\RazorClassLibrary.csproj", "{3D48EE9D-DDAE-4EBC-8B27-A2AB86BC9D62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularApp1.Server", "AngularApp1\AngularApp1.Server\AngularApp1.Server.csproj", "{5BC368E5-6A5C-4B1C-835C-E7870EF08FF5}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angularapp1.client", "AngularApp1\angularapp1.client\angularapp1.client.esproj", "{DE895800-1750-4519-8BF6-9E9999BEB3BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,16 @@ Global
 		{3D48EE9D-DDAE-4EBC-8B27-A2AB86BC9D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D48EE9D-DDAE-4EBC-8B27-A2AB86BC9D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D48EE9D-DDAE-4EBC-8B27-A2AB86BC9D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC368E5-6A5C-4B1C-835C-E7870EF08FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC368E5-6A5C-4B1C-835C-E7870EF08FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC368E5-6A5C-4B1C-835C-E7870EF08FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC368E5-6A5C-4B1C-835C-E7870EF08FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE895800-1750-4519-8BF6-9E9999BEB3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE895800-1750-4519-8BF6-9E9999BEB3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE895800-1750-4519-8BF6-9E9999BEB3BB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE895800-1750-4519-8BF6-9E9999BEB3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE895800-1750-4519-8BF6-9E9999BEB3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE895800-1750-4519-8BF6-9E9999BEB3BB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
